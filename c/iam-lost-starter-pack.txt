@@ -1,0 +1,7 @@
+So you are lost, that is really... really... really unfortually, but no problem, I got ya, check it out:
+
+1. Run the following command to Compile And Run (CAR :D ) a specified C file:
+    1.1) ".\car.bat <FILENAME>" example > .\car.bat main.c
+2. Another option is to always rename your current working file to main.c, if your file is at the root of that executable and its name is main.c just run that command:
+    2.1) ".\car.bat"
+    2.2) And yea, I know, pretty useless shit that second option.

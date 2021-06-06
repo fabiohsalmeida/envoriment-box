@@ -1,0 +1,4 @@
+Ok, you are lost, no problem about that, just check it out:
+
+1. Run the command ".\cpy.bat <fileName>", example:
+    1.1) .\cpy.bat test.py

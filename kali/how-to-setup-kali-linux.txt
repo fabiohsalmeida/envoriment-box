@@ -1,0 +1,13 @@
+1. Execute first-run-kali.bat and keep the commandline open;
+2. Execute the following command and keep your heads on to anwser commandline-in questions:
+    apt update && apt dist-upgrade && apt autoremove && apt clean && apt install kali-tools-top10 && apt install man-db
+3. Close the commandline with the following command:
+    exit
+4. Run the following command:
+    docker ps -a
+5. Copy the CONTAINER ID of kalilinux/kali-rolling image
+6. Run the following command and paste into <CONTAINER ID> the container id that you did copy:
+    docker commit <CONTAINER ID> kali-linux
+7. Run the following command:
+    docker run -ti kali-linux /bin/bash
+8. Execute kali-bash and be happy yey *flowers* uhuh, what an wonderful life, yeyeyeyeye
